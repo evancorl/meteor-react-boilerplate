@@ -9,6 +9,12 @@ npm install
 npm run start
 ```
 
-Make sure you add `settings.json` to your `.gitignore` list if it contains private app information.
+Don't forget to reconfigure the project as your own Git repo:
+```
+rm -rf .git
+git init
+```
+
+And make sure you add `settings.json` to your `.gitignore` list if it contains private app information.
 
 More to come later!
