@@ -1,0 +1,50 @@
+{
+  "extends": "airbnb",
+
+  "parserOptions":{
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+
+  "rules": {
+    "no-underscore-dangle": 0,
+    "import/no-unresolved": 0,
+    "jsx-a11y/img-has-alt": 0,
+    "react/jsx-first-prop-new-line": 0,
+    "consistent-return": 0,
+    "no-alert": 0,
+  },
+
+  globals: {
+    // node globals
+    "util": false,
+
+    // Meteor core
+    "Meteor": false,
+    "DDP": false,
+    "Mongo": false,
+    "Session": false,
+    "Accounts": false,
+    "Match": false,
+    "check": false,
+    "Tracker": false,
+    "ReactiveVar": false,
+    "EJSON": false,
+    "HTTP": false,
+    "Email": false,
+    "Assets": false,
+    "Package": false,
+    "App": false,
+    "Future": false,
+
+    // Meteor internals
+    "DDPServer": false,
+    "global": false,
+    "Log": false,
+    "MongoInternals": false,
+    "process": false,
+    "WebApp": false,
+    "WebAppInternals": false,
+  }
+}
